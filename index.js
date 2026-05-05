@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // CORS configuration
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://172.23.2.8:3000'],
+  origin: ['http://localhost:3000', 'http://172.23.2.8:3000'  'https://newschatbotapp.web.app','https://newschatbotapp.firebaseapp.com'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
